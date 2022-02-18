@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="container">
+      <img src="jack.jpg">
+    </div>
+  </body>
+</html>
+
+CSS STARTS BELLOW:
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 200px;
+  margin: 20px;
+}
+
+.container {
+  width: 286px;
+  background-color: orange;
+  border: 23px solid black;
+}

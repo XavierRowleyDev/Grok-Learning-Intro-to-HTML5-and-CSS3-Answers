@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="main.css">
+
+<h1>Chocolate brownie</h1>
+<img src="brownie.jpg" alt="brownie">
+
+<h2>Ingredients</h2>
+<ul>
+  <li>115g butter</li>
+  <li>115g cooking chocolate</li>
+  <li>1&frac12; cups caster sugar</li>
+  <li>pinch of salt</li>
+  <li>1 tsp vanilla essence</li>
+  <li>2 large eggs</li>
+  <li>1&frac14; cups plain flour</li>
+  <li>2 tbsp  cocoa powder</li>
+</ul>
+
+<h2>Method</h2>
+<ol>
+  <li>Preheat oven to 180&deg;C.</li>
+  <li>Melt butter and cooking chocolate and stir until smooth.</li>
+  <li>Stir in sugar, salt, vanilla essence and eggs.</li>
+  <li>Sift flour and cocoa powder into mixture and beat until smooth.</li>
+  <li>Pour mixture into a greased 18 cm square cake tin.</li>
+  <li>Bake for 35-40 minutes.</li>
+</ol>
+
+CSS STARTS BELLOW:
+
+body {
+  width: 450px;
+  padding: 15px 35px;
+  margin: 20px auto;
+  border: 20px solid aliceblue;
+  font-family: serif;
+}
+
+h1, h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100;
+  padding: 5px 0;
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+}
+
+ul {
+  list-style: circle;
+}
+
+img {
+  width: 100%;
+}

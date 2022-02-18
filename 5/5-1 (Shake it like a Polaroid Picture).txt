@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shake it like a polaroid picture</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div>
+      <img src="luna.jpg" alt="Front entrance of Luna Park">
+      <p>Luna Park 14 June 2015</p>
+    </div>
+    <div>
+      <img src="ferris.jpg" alt="Ferris wheel">
+      <p>Ferris wheel 14 June 2015</p>
+    </div>
+  </body>
+</html>
+
+CSS STARTS BELLOW:
+
+  body {
+  background-color: lightskyblue;
+  font-family: cursive;
+}
+
+div {
+  width: 220px;
+  text-align: center;
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+}

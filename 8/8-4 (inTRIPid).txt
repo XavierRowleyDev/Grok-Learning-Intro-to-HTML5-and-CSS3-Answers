@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>inTRIPid</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#"><span class="logo">inTRIPid</span></a></li>
+          <li><a href="#"><span class="fa fa-plane"></span> Flights</a></li>
+          <li><a href="#"><span class="fa fa-bed"></span> Hotels</a></li>
+          <li><a href="#"><span class="fa fa-cutlery"></span> Restaurants</a></li>
+          <li><a href="#"><span class="fa fa-trophy"></span> Best of 2015</a></li>
+          <li><a href="#"><span class="fa fa-pencil"></span> Write a review</a></li>
+        </ul>
+      </nav>
+    </header>
+    <article class="hero-review">
+      <div class="hero-review-text">
+        <h2>North Pole, Alaska</h2>
+        <p><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> Ashleigh M</p>
+        <p>Absolutely stunning, and a marvel to behold. The most sublime experience of my life... <a href="#">see full review</a></p>
+      </div>
+    </article>
+
+    <section class="latest-reviews">
+      <h1>Latest user reviews</h1>
+       <article class="review">
+        <img class="review-image" src="airline.jpg" alt="Argleton Air">
+        <div class="review-text">
+          <h2>Argleton Air</h2>
+          <p><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-o"></span> Padma N</p>
+          <p>Not a bad airline for the price point. Only complaint is the limited movie selection. I was on a 12 hour direct flight from Argleton... <a href="#">see full review</a></p>
+        </div>
+       </article>
+       <article class="review">
+        <img class="review-image" src="hotel.jpg" alt="Hencha Hotel">
+        <div class="review-text">
+          <h2>Hencha Hotel</h2>
+          <p><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span> Alfred P</p>
+          <p>Deceptively nice-looking, but the traffic noise is terrible and the location inconvenient. Staff were generally slow to respond and unhelpful when asked for activity suggestions... <a href="#">see full review</a></p>
+        </div>
+      </article>
+    </section>
+
+    <section class="featured-destinations">
+      <h1>Today's featured destinations</h1>
+        <div>
+          <div class="destination">
+            <img src="cappadocia.jpg" alt="Cappadocia">
+            <h4>Cappadocia<br>Turkey</h4>
+          </div>
+          <div class="destination">
+            <img src="maldives.jpg" alt="Maldives">
+            <h4>South Male<br>Maldives</h4>
+          </div>
+          <div class="destination">
+            <img src="mombarone.jpg" alt="Mombarone">
+            <h4>Colma di Mombarone<br>Italy</h4>
+          </div>
+          <div class="destination">
+            <img src="neuschwanstein.jpg" alt="Neuschwanstein">
+            <h4>Neuschwanstein Castle<br>Germany</h4>
+          </div>
+       </div>
+    </section>
+
+    <footer>
+      <section>
+        <h3>Browse cities</h3>
+        <ul>
+          <li><a href="#">Paris</a></li>
+          <li><a href="#">Bangkok</a></li>
+          <li><a href="#">Amsterdam</a></li>
+          <li><a href="#">Rome</a></li>
+          <li><a href="#">New York City</a></li>
+          <li><a href="#">Singapore</a></li>
+          <li><a href="#">Kuala Lumpur</a></li>
+          <li><a href="#">London</a></li>
+          <li><a href="#">Barcelona</a></li>
+          <li><a href="#">more...</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3>Browse categories</h3>
+        <ul>
+          <li><a href="#">Attraction</a></li>
+          <li><a href="#">Event</a></li>
+          <li><a href="#">Flights</a></li>
+          <li><a href="#">Hotels</a></li>
+          <li><a href="#">Food</a></li>
+          <li><a href="#">Urban</a></li>
+          <li><a href="#">Nature</a></li>
+          <li><a href="#">Tropical</a></li>
+          <li><a href="#">Snow</a></li>
+          <li><a href="#">more...</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3>Browse by rating</h3>
+        <ul>
+          <li><a href="#"><span class="fa fa-star-half-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span></a></li>
+          <li><a href="#"><span class="fa fa-star"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span></a></li>
+          <li><a href="#"><span class="fa fa-star"></span><span class="fa fa-star-half-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span></a></li>
+          <li><a href="#"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span></a></li>
+          <li><a href="#"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span></a></li>
+          <li><a href="#"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span></a></li>
+          <li><a href="#"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-o"></span><span class="fa fa-star-o"></span></a></li>
+          <li><a href="#"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-o"></span></a></li>
+          <li><a href="#"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-o"></span></a></li>
+          <li><a href="#"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></a></li>
+        </ul>
+      </section>
+      <section>
+        <h3><span class="logo">inTRIPid</span></h3>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Terms &amp; Conditions</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Our team</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+        <div class="social">
+          <a href="#"><span class="fa fa-facebook-square"></span></a>
+          <a href="#"><span class="fa fa-instagram"></span></a>
+          <a href="#"><span class="fa fa-twitter-square"></span></a>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
+
+CSS STARTS BELLOW:
+
+@import url(http://fonts.googleapis.com/css?family=Crete+Round);
+@import url(http://fonts.googleapis.com/css?family=Rock+Salt);
+
+/* General document styles */
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-family: 'Crete Round';
+}
+
+h1 {
+  display: inline-block;
+  width: auto;
+  background-color: rgb(222, 31, 66);
+  color: white;
+  padding: 5px 15px;
+  margin-left: -30px;
+}
+
+a {
+  color: rgb(180, 31, 66);
+  text-decoration: none;
+}
+
+.logo {
+  display: inline-block;
+  font-family: 'Rock Salt';
+  font-size: 16px;
+  line-height: 16px;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+/* Nav styles */
+nav {
+  background-color: rgb(222, 31, 66);
+}
+
+nav > ul > li {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav > ul > li:hover {
+  background-color: rgb(180, 31, 66);
+}
+
+nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+  color: white;
+}
+
+/* Hero styles */
+.hero-review {
+  background-image: url(alaska.jpg);
+  width: 1024px;
+  height: 600px;
+  padding-top: 400px;
+}
+
+.hero-review > .hero-review-text {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+}
+
+/* Reviews section styles */
+.review > .review-text {
+  display: inline-block;
+  width: 790px;
+  margin-left: 30px;
+}
+
+/* Featured destinations section styles */
+.featured-destinations {
+  background-color: lightgrey;
+}
+
+.destination {
+  display: inline-block;
+  margin: 0 5px;
+  text-align: center;
+  background-color: white;
+  width: 225px;
+  height: 240px;
+}
+
+/* Footer styles */
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer > section {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+}
+
+.social {
+  font-size: 30px;
+}

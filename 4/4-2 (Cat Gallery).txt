@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="main.css">
+
+<h1>Cat gallery</h1>
+<img src="awkward_cat.jpg">
+<img src="kittens2.jpg">
+<img src="neighbour_cat.jpg">
+<img src="curious_cat.jpg">
+<img src="kittens1.jpg">
+<img src="mystery_cat.jpg">
+<img src="timid_cat.jpg">
+
+CSS STARTS BELLOW:
+body {
+  background-color: black;
+  color: white;
+  margin: 20px;
+}
+
+img {
+  height: 200px;
+  margin: 10px;
+  border: 10px solid white;
+}

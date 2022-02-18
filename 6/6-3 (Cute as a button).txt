@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cute as a button</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <h3>Square</h3>
+    <div>
+      <span class="fa fa-facebook"></span>
+      <span class="fa fa-twitter"></span>
+      <span class="fa fa-instagram"></span>
+      <span class="fa fa-google-plus"></span>
+      <span class="fa fa-pinterest-p"></span>
+      <span class="fa fa-tumblr"></span>
+      <span class="fa fa-linkedin"></span>
+      <span class="fa fa-share-alt"></span>
+    </div>
+    <h3>Circle</h3>    
+    <div>
+      <span class="fa fa-facebook circle"></span>
+      <span class="fa fa-twitter circle"></span>
+      <span class="fa fa-instagram circle"></span>
+      <span class="fa fa-google-plus circle"></span>
+      <span class="fa fa-pinterest-p circle"></span>
+      <span class="fa fa-tumblr circle"></span>
+      <span class="fa fa-linkedin circle"></span>
+      <span class="fa fa-share-alt circle"></span>
+    </div>
+    <h3>Leaf</h3>
+    <div>
+      <span class="fa fa-facebook leaf"></span>
+      <span class="fa fa-twitter leaf"></span>
+      <span class="fa fa-instagram leaf"></span>
+      <span class="fa fa-google-plus leaf"></span>
+      <span class="fa fa-pinterest-p leaf"></span>
+      <span class="fa fa-tumblr leaf"></span>
+      <span class="fa fa-linkedin leaf"></span>
+      <span class="fa fa-share-alt leaf"></span>
+    </div>
+    <h3>Tab</h3>
+    <div>
+      <span class="fa fa-facebook tab"> Facebook</span>
+      <span class="fa fa-twitter tab"> Twitter</span>
+      <span class="fa fa-instagram tab"> Instagram</span>
+      <span class="fa fa-google-plus tab"> Google+</span>
+      <span class="fa fa-pinterest-p tab"> Pinterest</span>
+      <span class="fa fa-tumblr tab"> Tumblr</span>
+      <span class="fa fa-linkedin tab"> LinkedIn</span>
+      <span class="fa fa-share-alt tab"> more...</span>
+    </div>
+  </body>
+</html>
+
+CSS STARTS BELLOW:
+
+* {
+  box-sizing: border-box;
+}
+
+.fa {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.circle {
+  border-radius: 18px;
+}
+
+.leaf {
+  border-radius: 0 15px 0 15px;
+}
+
+.tab {
+  display: block;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.fa-facebook {
+  background-color: rgb(59, 89, 152);
+}
+
+.fa-twitter {
+  background-color: rgb(0, 172, 237);
+}
+
+.fa-instagram {
+  background-color: rgb(81, 127, 164);
+}
+
+.fa-google-plus {
+  background-color: rgb(211, 72, 54);
+}
+
+.fa-linkedin {
+  background-color: rgb(0, 123, 182);
+}
+
+.fa-pinterest-p {
+  background-color: rgb(203, 32, 39);
+}
+
+.fa-tumblr {
+  background-color: rgb(50, 80, 109);
+}
+
+.fa-share-alt {
+  background-color: rgb(53, 178, 14);
+}

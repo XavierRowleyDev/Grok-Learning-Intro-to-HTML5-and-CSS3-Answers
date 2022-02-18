@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recipe Hub</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contribute</a>
+          <ul>
+            <li><a href="#">Share your recipe</a></li>
+            <li><a href="#">Write a review</a></li>
+            <li><a href="#">Donate</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Recipes</a>
+          <ul>
+            <li><a href="#">Brownies</a></li>
+            <li><a href="#">Cakes</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Pies</a></li>
+            <li><a href="#">Pudding</a></li>
+            <li><a href="#">Savoury snacks</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
+
+CSS STARTS BELLOW:
+
+* { box-sizing: border-box; }
+
+ul {
+  background-color: skyblue;
+  padding: 0;
+}
+
+a {
+  padding: 20px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+
+nav > ul > li:hover {
+  background-color: rgb(121, 185, 211);
+}
+
+
+nav > ul > li > ul {
+  background-color: rgb(121, 185, 211);
+  list-style: none;
+  padding: 0;
+  display: none;
+  position: absolute;
+}
+
+nav > ul > li > ul > li:hover{
+  background-color: rgb(185, 211, 121);
+}
+
+nav > ul > li:hover > ul {
+  display: block;
+}

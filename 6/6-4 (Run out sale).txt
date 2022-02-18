@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopping</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <h1 class="sale-banner">Hurry, <span class="primary-color">30% off</span> storewide sale ends at midnight!</h1>
+
+    <div class="product-images">
+      <img class="large" src="shoes1.jpg" alt="Top and side view of shoes">
+      <img class="selected thumbnail" src="shoes1.jpg" alt="Top and side view of shoes">
+      <img class="thumbnail" src="shoes2.jpg" alt="Front view of shoes">
+      <img class="thumbnail" src="shoes3.jpg" alt="Sole of shoes">
+      <img class="thumbnail" src="shoes4.jpg" alt="Close up of sole">
+    </div>
+    <div class="product-description">
+      <h1>ON Cloudsurfer Running Shoes</h1>
+      <h2><span class="discounted">$141.99</span> <span class="primary-color">$99.39</span></h2>
+      <h3>Target speed</h3>
+      <p>4-5 min/km</p>
+      <h3>Technical</h3>
+      <p>Heel-toe offset: 7 mm</p>
+      <p>Weight: 260 - 285g</p>
+      <p>Patented CloudTec&#174; support system</p>
+      <a class="button" href="#">Add to cart</a>
+      <a href="#">Size guide</a>
+      <a href="#">Shipping</a>
+    </div>
+
+    <div class="related-products">
+      <h2>You might also like...</h2>
+      <img class="related-product" src="related-shoe1.jpg" alt="Related product shoe">
+      <img class="related-product" src="related-shoe2.jpg" alt="Related product shoe">
+      <img class="related-product" src="related-shoe3.jpg" alt="Related product shoe">
+    </div>
+  </body>
+</html>
+
+CSS STARTS BELLOW:
+
+@import url(http://fonts.googleapis.com/css?family=Bitter);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bitter', serif;
+  margin: 0 auto;
+  width: 900px;
+}
+
+/* Image properties */
+.large {
+  width: 500px;
+}
+
+.thumbnail {
+  width: 120px;
+}
+
+.selected {
+  border: 3px solid tomato;
+}
+
+.related-product {
+  width: 200px;
+}
+
+/* Text properties */
+.sale-banner {
+  text-transform: uppercase;
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.primary-color {
+  color: tomato;
+}
+
+.discounted {
+  text-decoration: line-through;
+}
+
+.button {
+  display: block;
+  background-color: tomato;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+/* Div properties */
+div {
+  padding: 0 24px;
+}
+
+.product-images {
+  display: inline-block;
+  width: 540px;
+}
+
+.product-description {
+  display: inline-block;
+  width: 350px;
+  text-align: center;
+}
+
+.related-products {
+  border-top: 1px solid black;
+  margin-top: 50px;
+}

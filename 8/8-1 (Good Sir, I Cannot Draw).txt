@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Good Sir, I Cannot Draw</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <header>
+      <h1>Good Sir, I Cannot Draw</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">&lt;&lt; First</a></li>
+        <li><a href="#">&lt; Previous</a></li>
+        <li><a href="#">Random!</a></li>
+        <li><a href="#">Next &gt;</a></li>
+        <li><a href="#">Latest &gt;&gt;</a></li>
+      </ul>
+    </nav>
+
+    <article>
+      <img src="comic.jpg" alt="Man sees another person wearing the same shirt as him. Feeling uncomfortable, he quickly puts on a jacket to cover it.">
+    </article>
+
+    <footer>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Complaints</a></li>
+      </ul>
+    </footer>
+
+  </body>
+</html>
+
+CSS START BELLOW:
+
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
+* { box-sizing: border-box; }
+
+body {
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+nav {
+  background-color: rgb(110, 23, 65);
+}
+
+nav > ul {
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+footer > ul {
+  padding: 0;
+}
+
+footer > ul > li {
+  display: inline-block;
+  padding: 10px 10px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Athlete's Footer</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <header>
+      <h1>Athlete's Footer</h1>
+    </header>
+    <article>
+      <h2>End of Financial Year Sale!</h2>
+      <p>All shoes of the following brands are <strong>50% OFF</strong> until June 30th!</p>
+      <ul>
+        <li><a href="#">Adidas</a></li>
+        <li><a href="#">Asics</a></li>
+        <li><a href="#">Ecco</a></li> 
+        <li><a href="#">New Balance</a></li>
+      </ul>
+      <p>Available in the following colours:</p>
+      <ul>
+        <li>Black</li>
+        <li>Blue</li>
+        <li>Brown</li>
+        <li>Green</li>
+      </ul>
+      <h3>Hurry before stock runs out!</h3>
+    </article>
+    <footer>
+      <span>&copy; 2015 Athlete's Footer</span>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
+
+CSS STARTS BELLOW:
+
+* { box-sizing: border-box; }
+
+body {
+  background-image: url(athletes-footer.jpg);
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px;
+}
+
+h1 {
+  color: rgb(255, 112, 0);
+}
+
+article {
+  padding: 30px;
+  width: 480px;
+}
+
+a {
+  color: rgb(29, 174, 192);
+  text-decoration: none;
+}
+
+
+footer { 
+  background-color: rgb(75, 75, 75);
+  color: white;
+  text-align: center;
+}
+
+footer > ul {
+  display: inline-block;
+}
+
+footer > ul > li {
+  display: inline-block;
+  padding: 10px;
+}
+
+footer > ul > li > a {
+  color: rgb(255, 112, 0);
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  <title>You have 3 unread notifications</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <p class="unread">
+    <span class="name">Jay Gatsby</span> posted in <span class="name">June Junket</span>.<br>
+    <span class="timestamp">2 minutes ago</span>
+  </p>
+  <p>
+    <span class="name">Daisy Buchanan</span> commented on your photo.<br>
+    <span class="timestamp">34 minutes ago</span>
+  </p>   
+  <p class="unread">
+    <span class="name">Daisy Buchanan</span>, <span class="name">Tom Buchanan</span> and 12 other people like your status.<br>
+    <span class="timestamp">36 minutes ago</span>
+  </p>
+  <p class="unread">
+    <span class="name">Jordan Baker</span> accepted your friend request.<br>
+    <span class="timestamp">2 hours ago</span>
+  </p>
+  <p>
+    <span class="name">Jay Gatsby</span> invited you to <span class="name">June Junket</span>.<br>
+    <span class="timestamp">6 hours ago</span>
+  </p>
+</body>
+
+CSS STARTS BELLOW:
+
+.name {
+  font-weight: bold;
+}
+.timestamp {
+  color: darkgrey;
+}
+.unread {
+  background-color: rgb(237, 239, 245);
+}
+
+p {
+  width: 400px;
+  padding: 16px;
+  margin: 0;
+  border-bottom: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}

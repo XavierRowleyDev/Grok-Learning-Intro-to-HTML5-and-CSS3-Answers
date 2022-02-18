@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Keep Calm and Code On</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div>
+      <p>
+        <img src="crown.png">
+        <span class="large">KEEP CALM</span> AND <span class="large">CODE ON</span>
+      </p>
+    </div>
+    <div>
+      <p>
+        <img src="crown.png">
+        <span class="large">KEEP CALM</span> AND <span class="large">CODE ON</span>
+      </p>
+    </div>
+    <div>
+      <p>
+        <img src="crown.png">
+        <span class="large">KEEP CALM</span> AND <span class="large">CODE ON</span>
+      </p>
+    </div>
+    <div>
+      <p>
+        <img src="crown.png">
+        <span class="large">KEEP CALM</span> AND <span class="large">CODE ON</span>
+      </p>
+    </div>
+    <div>
+      <p>
+        <img src="crown.png">
+        <span class="large">KEEP CALM</span> AND <span class="large">CODE ON</span>
+      </p>
+    </div>
+  </body>
+</html>
+
+CSS STARTS BELLOW:
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(brick-tile.jpg);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.large {
+  font-size: 36px;
+  display: block;
+}
+
+div {
+  background-color: rgb(193, 12, 6);
+  width: 190px;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 160px;
+}
